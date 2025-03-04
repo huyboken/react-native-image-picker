@@ -318,7 +318,8 @@ public class Utils {
         switch (requestCode) {
             case REQUEST_LAUNCH_IMAGE_CAPTURE:
             case REQUEST_LAUNCH_VIDEO_CAPTURE:
-            case REQUEST_LAUNCH_LIBRARY: return true;
+            case REQUEST_LAUNCH_MIXED_CAPTURE:
+            return true ;
             default: return false;
         }
     }
