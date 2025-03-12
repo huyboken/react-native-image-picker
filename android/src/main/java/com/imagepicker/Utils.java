@@ -319,6 +319,7 @@ public class Utils {
             case REQUEST_LAUNCH_IMAGE_CAPTURE:
             case REQUEST_LAUNCH_VIDEO_CAPTURE:
             case REQUEST_LAUNCH_MIXED_CAPTURE:
+            case REQUEST_LAUNCH_LIBRARY:
             return true ;
             default: return false;
         }
